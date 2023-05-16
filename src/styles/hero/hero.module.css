@@ -9,6 +9,7 @@
   font-family: 'Fredoka', sans-serif;
   font-size: 6.5rem;
   line-height: 1.2;
+  color: var(--brown-dark);
 }
 
 .__img_hero {
