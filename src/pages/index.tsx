@@ -1,14 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import NavBar from '@/components/navbar/navbar'
+import Hero from '@/components/hero/hero'
+import styles from '@/styles/index.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return(
-    <div>
+    <>
       <NavBar/>
-    </div>
+      <div className={styles.__body_custom}>
+        <section>
+          <Hero/>
+        </section>
+      </div>
+    </>
   )
 }

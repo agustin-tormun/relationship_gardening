@@ -1,7 +1,5 @@
 import Link from "next/link"
-import styles from '../../styles/navbar/navbar.module.css'
-import { useState } from "react"
-import NavItem from "./navbar_item"
+import styles from '@/styles/navbar/navbar.module.css'
 
 
 const NavBar = () => {

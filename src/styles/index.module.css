@@ -1,0 +1,15 @@
+.__body_custom {
+  padding: 2rem 4rem;
+}
+
+@media screen and (min-width: 481px) {
+  .__body_custom {
+    padding: 2rem 6rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .__body_custom {
+    padding: 2rem 6rem;
+  } 
+}
