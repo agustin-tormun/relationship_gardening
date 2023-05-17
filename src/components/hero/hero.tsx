@@ -7,11 +7,7 @@ const Hero = () => {
         <h2 className={styles.__txt_hero}>Nurture love, watch bonds blossom.</h2>
       </div>
       <div>
-        <img
-          className={styles.__img_hero}
-          src="/images/hero_tiny.png"
-          alt="Image of the cycle between seeds turning into a tree and a person turning into various persons"
-        />
+      <button className={styles.btn__login} onClick={() => console.log('login')}>Go Garden My Loved Ones 🌱</button>
       </div>
     </div>
   )
